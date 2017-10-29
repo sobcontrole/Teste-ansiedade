@@ -1,5 +1,5 @@
-#https://jceletherio.github.io/QuizSobPressao/
-# QuizSobPressao
+#https://jceletherio.github.io/QuizSobControle/
+# QuizSobControle
 Repositorio para teste de ansiedade disciplina PSI 1958
 
 PersonalityQuizzer - v0.02
