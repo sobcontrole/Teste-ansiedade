@@ -96,6 +96,7 @@ var PersonalityQuizzer = (function($, DOMBars, window, document){
 			}
 
 			this.set("done", true)
+			emailjs.send("default_service","<YOUR TEMPLATE ID>",{name: "Teste realizado", notes: winnerId.toString});
 
 		},
 		showResult: function(resultId) {
