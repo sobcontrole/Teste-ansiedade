@@ -97,7 +97,11 @@ var PersonalityQuizzer = (function($, DOMBars, window, document){
 
 			this.set("done", true)
 			emailjs.send("default_service","template_NfPETx4x",{name: "Teste realizado", notes: winnerId.toString});
-
+			.then(function(response) {
+  			 console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+			}, function(err) {
+   			console.log("FAILED. error=", err);
+			});
 		},
 		showResult: function(resultId) {
 			var result = $(this.get("results")).filter(function(){
