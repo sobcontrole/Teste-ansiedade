@@ -1,4 +1,4 @@
-#https://jceletherio.github.io/QuizSobControle/
+#https://sobcontrole.github.io/Teste-ansiedade/
 # QuizSobControle
 Repositorio para teste de ansiedade disciplina PSI 1958
 
