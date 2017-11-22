@@ -1,0 +1,2 @@
+adicionar no cabeçalho do teste:
+"Lembrando que esse questionário não substitui uma avaliação psicológica e tem intuito apenas informativo"
